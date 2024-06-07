@@ -1,0 +1,43 @@
+.navbar {
+    margin: 0;
+    height: 75px;
+    background-color: black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar__items{
+    width: 65%;
+    display: flex;
+    align-items: center;
+}
+
+.nav__btns{
+    margin-left: auto;
+    display: flex;
+}
+
+.btn{
+    margin-right: 25px;
+    font-size: 1.1rem;
+}
+
+.nav__logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo__img{
+    height: 75px;
+    width: 75px;
+}
+
+.nav__img{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+

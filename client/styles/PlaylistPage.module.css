@@ -1,0 +1,76 @@
+.main_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../img/digital-art-style-sky-landscape-with-moon.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 70%;
+    min-height: 875px;
+}
+
+.header_container {
+    margin-top: 20px;
+}
+
+.header {
+    color: white;
+}
+
+.create__container {
+    border-top: 2px solid black;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+
+.create_text {
+    font-family: 'century gothic';
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.create_arrow {
+    margin-left: 5px;
+}
+
+.btn {
+    margin-left: 20px;
+}
+
+.header {
+    font-family: 'century gothic';
+    font-weight: normal;
+    font-size: 2rem;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.search_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.search {
+    width: 50%;
+}

@@ -1,0 +1,32 @@
+.main__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 245px;
+    height: 200px;
+}
+
+.container {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s ease;
+    background-color: white;
+    cursor: pointer;
+}
+
+.container:hover {
+    background-color: gray;
+}
+
+.cover__img {
+    width: 230px;
+    height: 150px;
+}
+
+.name {
+    border-top: 1px solid black;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: normal;
+}

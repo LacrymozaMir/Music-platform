@@ -1,0 +1,43 @@
+.main__container {
+    display: flex;
+    justify-content: center;
+    color: black;
+    height: 100%;
+    min-width: 125px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.user_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.user_name {
+    font-size: 2rem;
+    font-family: 'century gothic';
+    font-weight: bold;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.user_name:hover {
+    color: white;
+}
+
+.delete_icon {
+    transition: 0.3s ease;
+    cursor: pointer;
+    border-radius: 25px;
+}
+.delete_icon:hover {
+    color: red;
+
+}

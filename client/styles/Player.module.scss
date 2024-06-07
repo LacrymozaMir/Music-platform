@@ -1,0 +1,67 @@
+.player__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    background: linear-gradient(to right, #000000, #424242);
+
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.player {
+    color: white;
+
+    width: 60%;
+    margin: 0;
+    padding: 10px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btns {
+    margin: 0;
+}
+
+.name_artist_txt{
+    display: flex;
+    align-items: center;
+}
+
+.trackName {
+    font-size: 1.2rem;
+}
+
+.trackArtist {
+    font-size: 1.0rem;
+    color: gray;
+}
+
+.track__time {
+    display: inline-flex;
+    flex-direction: row;
+    margin-right: 10px;
+}
+
+.track_progress {
+    width: 50%;
+}
+
+.track__volume__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.track__volume__icon {
+    
+}
+
+.track__volume__bar {
+
+}

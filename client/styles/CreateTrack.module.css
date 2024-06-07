@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    justify-content: center;
+    background-image: url('../img/digital-art-style-sky-landscape-with-moon.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 875px;
+}
+
+.container__second{
+    margin-top: 100px;
+    width: 50%;
+}
+
+.header {
+    margin-top: 0;
+    color: white;
+    text-align: center;
+    font-family: 'century gothic';
+    font-size: 3rem;
+    font-weight: normal;
+    border-bottom: 2px solid white;
+}
+
+.inp{
+    margin-top: 10px;
+    width: 60%;
+}
+
+.btn {
+    margin-top: 10px;
+}
+
+.btn_move {
+    margin-top: 10px;
+}

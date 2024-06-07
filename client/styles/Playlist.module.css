@@ -1,0 +1,56 @@
+.main__container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    background-image: url('../img/digital-art-style-sky-landscape-with-moon.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 875px;
+}
+
+.container {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px;
+    border-bottom: 2px solid white;
+}
+
+.playlist_image{
+    width: 230px;
+    height: 150px;
+}
+
+.name {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-left: 25px;
+    font-family: 'century gothic';
+    color: white;
+    border-bottom: 3px solid black;
+}
+
+.playlist_icon {
+
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.playlist_icon:hover {
+    color: white;
+}
+
+.trackList {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
